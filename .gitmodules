@@ -1,0 +1,3 @@
+[submodule "extern/cmark"]
+	path = extern/cmark
+	url = git@github.com:commonmark/cmark.git
