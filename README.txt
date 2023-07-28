@@ -4,6 +4,7 @@ In this way it should be possible to point a web browser to the local html file
 and see how the browser renders the markdown.
 
 BUILDING:
+git submodule update --init
 mkdir -p build
 cd build
 cmake ..
