@@ -4,7 +4,10 @@ In this way it should be possible to point a web browser to the local html file
 and see how the browser renders the markdown.
 
 BUILDING:
-Follow the usual cmake procedures.
+mkdir -p build
+cd build
+cmake ..
+make
 
 RUNNING:
 The build should produce cmark_watcher, which requires two ordered arguments.
